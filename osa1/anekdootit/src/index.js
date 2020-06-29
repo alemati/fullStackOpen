@@ -14,7 +14,7 @@ const App = (props) => {
 
     const nextJoke = () => {
         var randomNumder = Math.floor((Math.random() * 100) + 1)    // taking random number between 1 and 100
-        var randomIndex = randomNumder % lenght                     // and then modulo anecdotes number in array
+        var randomIndex = randomNumder % lenght                     // and then modulo anecdotes lenght 
         setSelected(selected - selected + randomIndex)              // result is number between 0 and arrayLenght-1
         console.log('index of new joke is', randomIndex)
     }
