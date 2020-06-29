@@ -1,4 +1,4 @@
-# fullStackOpen 2019  
+# fullStackOpen
 
 
 [osa0](https://github.com/alemati/fullStackOpen/tree/master/osa0)  
