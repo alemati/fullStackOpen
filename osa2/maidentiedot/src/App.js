@@ -16,7 +16,7 @@ function App() {
       })
   }
   useEffect(hook, [])
-
+ 
   const handleSearchWordInputChange = (event) => {
     console.log('new searchWord input is:', event.target.value)
     setSearchWord(event.target.value)
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div>
-        <h2>maiden tiedot</h2>
+        <h2>Maiden tiedot</h2>
         <h4>find countries <input value={searchWord} onChange={handleSearchWordInputChange} /></h4>
         <div>{showValidCountries()}</div>
         
